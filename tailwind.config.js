@@ -12,8 +12,8 @@ export default {
         'dark-silver': '#989c9f', // rgb(152, 156, 159)
         'turquoize': '#1ABC9C' // rgb(26, 188, 156)
       },
-      width: {
-        '98/100': 'calc(100% - 1rem)'
+      fontFamily: {
+        ubuntu: ['Ubuntu', 'sans-serif']
       }
     },
   },

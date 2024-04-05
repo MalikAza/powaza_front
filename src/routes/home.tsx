@@ -1,9 +1,12 @@
+import PageContainer from "../components/pageContainer"
+
 function Home() {
 
   return (
-    <main>
-
-    </main>
+    <PageContainer>
+      <main>
+      </main>
+    </PageContainer>
   )
 }
 
