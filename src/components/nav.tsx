@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from 'react'
+import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import DarkThemeSwitch from './switches/darkThemeSwitch'
@@ -24,19 +24,6 @@ const links: Link[] = [
 
 export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [isDarkTheme, setDarkTheme] = useState(false)
-
-  useEffect(() => {
-    switch (isDarkTheme) {
-      case true:
-        document.documentElement.classList.add('dark')
-        break;
-    
-      case false:
-        document.documentElement.classList.remove('dark')
-        break;
-    }
-  }, [isDarkTheme])
 
   return (
     <header
@@ -73,7 +60,7 @@ export default function Nav() {
                 ))
               }
             </ul>
-            <DarkThemeSwitch isSelected={isDarkTheme} setSelected={setDarkTheme} />
+            <DarkThemeSwitch />
           </div>
         </div>
       </nav>
@@ -131,7 +118,7 @@ export default function Nav() {
                       }
                     </div>
                     <div className="py-6">
-                      <DarkThemeSwitch isSelected={isDarkTheme} setSelected={setDarkTheme} />
+                      <DarkThemeSwitch />
                     </div>
                   </div>
                 </div>
