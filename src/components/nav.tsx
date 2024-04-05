@@ -71,10 +71,10 @@ export default function Nav() {
         <Dialog as="div" className="lg:hidden" onClose={() => {setMobileMenuOpen(false)}}>
             <Transition.Child
               as={Fragment}
-              enter='transition ease-in-out duration-300 transform'
+              enter='transition ease-in-out duration-500 transform'
               enterFrom='translate-x-full'
               enterTo='translate-x-0'
-              leave='transition ease-in-out duration-300 transform'
+              leave='transition ease-in-out duration-500 transform'
               leaveFrom='translate-x-0'
               leaveTo='translate-x-full'
             >
@@ -82,10 +82,10 @@ export default function Nav() {
             </Transition.Child>
             <Transition.Child
               as={Fragment}
-              enter='transition ease-in-out duration-300 transform'
+              enter='transition ease-in-out duration-500 transform'
               enterFrom='translate-x-full'
               enterTo='translate-x-0'
-              leave='transition ease-in-out duration-300 transform'
+              leave='transition ease-in-out duration-500 transform'
               leaveFrom='translate-x-0'
               leaveTo='translate-x-full'
             >
