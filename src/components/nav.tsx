@@ -1,7 +1,7 @@
 import { Fragment, useEffect, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import DarkThemeSwitch from './darkThemeSwitch'
+import DarkThemeSwitch from './switches/darkThemeSwitch'
 import { Link } from '../types/links'
 
 const links: Link[] = [
