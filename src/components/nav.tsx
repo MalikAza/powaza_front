@@ -33,13 +33,13 @@ export default function Nav() {
           <div className="flex-1 justify-between lg:flex-none mr-12">
             <a href="/" className="-m-1.5 p-1.5 flex items-center gap-x-1">
               <span className="sr-only">Powaza</span>
-              <span className='leading-6 text-wet-asphalt dark:text-silver'>Powaza</span>
+              <span className='text-wet-asphalt dark:text-silver'>Powaza</span>
             </a>
           </div>
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-wet-asphalt dark:text-silver"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -89,11 +89,11 @@ export default function Nav() {
               leaveFrom='translate-x-0'
               leaveTo='translate-x-full'
             >
-              <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-silver dark:bg-dark-asphalt px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-color duration-500">
+              <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-silver dark:bg-dark-asphalt px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-color duration-500 font-ubuntu">
                 <div className="flex items-center justify-between">
                   <a href="#" className="-m-1.5 p-1.5 flex items-center gap-x-1">
                     <span className="sr-only">Powaza</span>
-                    <span className='text-sm font-semibold leading-6 text-wet-asphalt dark:text-silver'>Powaza</span>
+                    <span className='text-wet-asphalt dark:text-silver'>Powaza</span>
                   </a>
                   <button
                     type="button"
