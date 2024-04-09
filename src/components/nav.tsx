@@ -27,7 +27,7 @@ export default function Nav() {
 
   return (
     <header
-      className="backdrop-blur-sm fixed font-ubuntu w-full top-0 transition-colors duration-500">
+      className="backdrop-blur-sm fixed font-ubuntu w-full top-0 transition-colors duration-500 z-50">
       <nav className='mx-auto max-w-7xl lg:w-3/5'>
         <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-0 theme-transition" aria-label="Global">
           <div className="flex-1 justify-between lg:flex-none mr-12">
@@ -78,7 +78,7 @@ export default function Nav() {
               leaveFrom='translate-x-0'
               leaveTo='translate-x-full'
             >
-              <div className="fixed inset-0 z-10" />
+              <div className="fixed inset-0 z-50" />
             </Transition.Child>
             <Transition.Child
               as={Fragment}
@@ -89,7 +89,7 @@ export default function Nav() {
               leaveFrom='translate-x-0'
               leaveTo='translate-x-full'
             >
-              <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-silver dark:bg-dark-asphalt px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-color duration-500 font-ubuntu">
+              <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-silver dark:bg-dark-asphalt px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-color duration-500 font-ubuntu">
                 <div className="flex items-center justify-between">
                   <a href="#" className="-m-1.5 p-1.5 flex items-center gap-x-1">
                     <span className="sr-only">Powaza</span>

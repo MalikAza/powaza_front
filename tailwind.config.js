@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  mode: 'jit',
   content: ["./src/**/*.tsx"],
   darkMode: 'selector',
   theme: {
@@ -10,7 +11,8 @@ export default {
         'dark-asphalt': '#1d2834', // rgb(29, 40, 52)
         'silver': '#BDC3C7', // rgb(189, 195, 199)
         'dark-silver': '#989c9f', // rgb(152, 156, 159)
-        'turquoize': '#1ABC9C' // rgb(26, 188, 156)
+        'turquoize': '#1ABC9C', // rgb(26, 188, 156)
+        'dark-turquoize': '#139077', // rgb(19, 144, 119)
       },
       fontFamily: {
         ubuntu: ['Ubuntu', 'sans-serif']

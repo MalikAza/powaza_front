@@ -1,3 +1,5 @@
+import HeroSection from "../components/homeSections/heroSection"
+import TimelineSection from "../components/homeSections/timelineSection"
 import PageContainer from "../components/pageContainer"
 
 function Home() {
@@ -5,6 +7,8 @@ function Home() {
   return (
     <PageContainer>
       <main>
+        <HeroSection />
+        <TimelineSection />
       </main>
     </PageContainer>
   )
