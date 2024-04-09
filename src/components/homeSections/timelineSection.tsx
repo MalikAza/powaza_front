@@ -29,7 +29,7 @@ function TimelineSection() {
     }
   ]
   return (
-    <section id="timeline" className="overflow-hidden md:overflow-visible pl-2">
+    <section id="timeline" className="overflow-hidden pl-2">
       <h3 className="text-dark-turquoize dark:text-turquoize mb-2 text-xl">Where I started</h3>
       <VerticalTimeline timelineObjects={timelineObjects}/>
     </section>
