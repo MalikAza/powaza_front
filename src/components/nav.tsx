@@ -27,7 +27,7 @@ export default function Nav() {
 
   return (
     <header
-      className="backdrop-blur-sm fixed font-ubuntu w-full top-0 transition-colors duration-500 z-50">
+      className="backdrop-blur-md fixed font-ubuntu w-full top-0 transition-colors duration-500 z-50">
       <nav className='mx-auto max-w-7xl lg:w-3/5'>
         <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-0 theme-transition" aria-label="Global">
           <div className="flex-1 justify-between lg:flex-none mr-12">
