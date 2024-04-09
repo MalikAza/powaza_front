@@ -1,7 +1,7 @@
 function HeroSection() {
   return (
-    <section id="hero" className="text-lg font-thin">
-      <div id="intro" className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8">
+    <section id="hero" className="text-lg font-thin mb-8">
+      <div id="intro" className="flex flex-col sm:flex-row items-center justify-center gap-6">
         <img 
           src="/images/DF-profile-picture.png"
           alt="Dakota Froissart"

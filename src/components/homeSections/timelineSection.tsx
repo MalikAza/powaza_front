@@ -2,6 +2,7 @@ import { TimelineObject } from "../../types/timeline"
 import VerticalTimeline from "../verticalTimeline/verticalTimeline"
 
 function TimelineSection() {
+
   const timelineObjects: TimelineObject[] = [
     {
       time: new Date('2016-01-02'),
@@ -28,10 +29,11 @@ function TimelineSection() {
       at <a href="" target="_blank" class="text-[rgb(222,123,57)] hover:underline">Let's Co</a> to make things more serious`
     }
   ]
+
   return (
-    <section id="timeline" className="overflow-hidden pl-2">
+    <section id="timeline" className="overflow-hidden pl-2 h-[572px] md:h-[500px]"> {/* Arbitrary height value for the next section */}
       <h3 className="text-dark-turquoize dark:text-turquoize mb-2 text-xl">Where I started</h3>
-      <VerticalTimeline timelineObjects={timelineObjects}/>
+      <VerticalTimeline timelineObjects={timelineObjects} />
     </section>
   )
 }
