@@ -23,10 +23,10 @@ function ProjectsSection() {
       img_url: '/images/dice.png'
     },
     {
-      title: 'ZUKonar',
+      title: 'ZUChecker',
       description: `Tracking friends accounts for
         <a class="text-dark-turquoize dark:text-turquoize hover:underline" href="https://zunivers.zerator.com/" target="_blank">ZUnivers</a>`,
-      url: 'https://zukonar.powaza.fr',
+      url: 'https://zuchecker.powaza.fr',
       img_url: '/images/powi-zu.png'
     },
     {
