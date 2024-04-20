@@ -32,7 +32,7 @@ function ProjectsSection() {
     {
       title: 'Spotify - Top 50 World',
       description: 'Study project learning React & Spotify API',
-      url: 'https://spotiy-50-world.powaza.fr',
+      url: 'https://spotify-50-world.powaza.fr',
       img_url: '/images/spotify-50-world.svg'
     },
     {
