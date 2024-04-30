@@ -8,8 +8,10 @@ function TimelineSection() {
       time: new Date('2016-01-02'),
       title: 'Self-taught',
       description: `Made & improved a
-      <a href="https://python.org" target="_blank" class="dark:text-turquoize text-dark-turquoize hover:underline">Python</a>
-      bot for the <a href="https://discord.gg" target="_blank" class="dark:text-turquoize text-dark-turquoize hover:underline">Discord<a/> application`,
+      <a href="https://python.org" target="_blank" class="dark:text-turquoize text-dark-turquoize hover:underline">
+        <img src="/images/Python-logo-notext.png" class="h-4 inline-block align-middle" /> Python</a>
+      bot for the <a href="https://discord.gg" target="_blank" class="dark:text-turquoize text-dark-turquoize hover:underline">
+        <img src="/images/Discord_Logo_sans_texte.png" class="h-4 inline-block align-middle" /> Discord<a/> application`,
     },
     {
       time: new Date('2020-01-04'),
