@@ -38,7 +38,7 @@ function VerticalTimelineElement({ time, title, description, link, index }: Prop
   }
 
   return (
-    <li className="mb-10 ms-4">
+    <li className="mb-10 ms-4 last:mb-0">
       <div className={`absolute w-3 h-3 bg-dark-turquoize rounded-full mt-1.5 -start-1.5 border border-silver dark:border-dark-asphalt dark:bg-turquoize
         transition-opacity duration-500 ${dotVisible ? 'opacity-100' : 'opacity-0'}`}></div>
       <Transition
