@@ -5,21 +5,21 @@ import DarkThemeSwitch from './switches/darkThemeSwitch'
 import { Link } from '../types/links'
 
 const links: Link[] = [
-  {
-    title: 'About',
-    ref: '#about',
-    icon: ''
-  },
-  {
-    title: 'Projects',
-    ref: '#projects',
-    icon: ''
-  },
-  {
-    title: 'Contact',
-    ref: '#contact',
-    icon: ''
-  },
+  // {
+  //   title: 'About',
+  //   ref: '#about',
+  //   icon: ''
+  // },
+  // {
+  //   title: 'Projects',
+  //   ref: '#projects',
+  //   icon: ''
+  // },
+  // {
+  //   title: 'Contact',
+  //   ref: '#contact',
+  //   icon: ''
+  // },
 ]
 
 export default function Nav() {
