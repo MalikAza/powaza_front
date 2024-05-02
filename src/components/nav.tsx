@@ -33,7 +33,7 @@ export default function Nav() {
           <div className="flex-1 justify-between lg:flex-none mr-12">
             <a href="/" className="-m-1.5 p-1.5 flex items-center gap-x-1">
               <span className="sr-only">Powaza</span>
-              <span className='text-wet-asphalt dark:text-silver'>Powaza</span>
+              <span className='text-wet-asphalt dark:text-silver font-bold'>Powaza</span>
             </a>
           </div>
           <div className="flex lg:hidden">
