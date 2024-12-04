@@ -11,23 +11,17 @@ function ProjectsSection() {
       img_url: '/images/pyZU.svg'
     },
     {
-      title: 'Artichotel',
-      description: 'Study project reflecting booking process for a hotel',
-      url: 'https://artichotel.powaza.fr',
-      img_url: '/images/artichotel-logo.svg'
-    },
-    {
-      title: 'D20',
-      description: 'A simple 20 face dice roll webpage',
-      url: 'https://d20.powaza.fr',
-      img_url: '/images/dice.png'
-    },
-    {
       title: 'ZUChecker',
       description: `Tracking friends accounts for
         <a class="text-dark-turquoize dark:text-turquoize hover:underline" href="https://zunivers.zerator.com/" target="_blank">ZUnivers</a>`,
       url: 'https://zuchecker.powaza.fr',
       img_url: '/images/powi-zu.png'
+    },
+    {
+      title: "L'Atelier d'Art",
+      description: 'Client project for a painting workshop',
+      url: 'https://latelierdart26.fr',
+      img_url: 'https://latelierdart26.fr/assets/atelier-art-logo-CGRouE3j.svg'
     },
     {
       title: 'Spotify - Top 50 World',
